@@ -96,7 +96,7 @@ class _HotelDetailsPageState extends State<HotelDetailsPage> {
                     ),
                   ),
                 ),
-                Container(
+                SizedBox(
                   height: 200,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
